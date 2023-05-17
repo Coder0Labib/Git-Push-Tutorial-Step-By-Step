@@ -13,7 +13,8 @@ Another way to create a branch and enter into this branch at a single line comma
 Merge:
 When we have two branch. for push to master branch we have to merge the branch file.
 step1: Firstly we have to go into master branch
-	$git checkout master
+	$git checkout master .
+
 
 step2: For merge a branch follow this command.
 	$git merge BranchName
@@ -22,3 +23,6 @@ step3: If we have to merge manually then we have to do this step.
 	$git add .
 	$git commit -m "message"
 done.
+
+
+To see all remote branch names, run git branch -r
